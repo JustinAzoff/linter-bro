@@ -1,7 +1,7 @@
 linter-bro
 =========================
 
-This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides an interface to [bro](https://bro). It will be used with files that have the ".bro" syntax.
+This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides an interface to [bro](https://www.bro.org/). It will be used with files that have the ".bro" syntax.
 
 ## Installation
 Linter package must be installed in order to use this plugin. If Linter is not installed, please follow the instructions [here](https://github.com/AtomLinter/Linter).
