@@ -22,7 +22,7 @@ export function provideLinter() {
   return {
     name: 'Bro',
     scope: 'project',
-    lintOnFly: true,
+    lintOnFly: false,
     grammarScopes: ['source.bro'],
     lint(textEditor) {
       //Why bother with observe?
