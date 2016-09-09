@@ -13,7 +13,7 @@ Now you can proceed to install the linter-bro plugin.
 
 ### Plugin installation
 ```
-$ apm install linter-bro
+$ apm install linter linter-bro
 ```
 
 ### Plugin configuration
