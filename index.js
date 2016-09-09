@@ -10,12 +10,6 @@ export var config = {
   }
 }
 
-
-export function activate() {
-  console.log('activate linter-bro using path: ', atom.config.get('linter-bro.broExecutablePath'));
-}
-
-
 export function provideLinter() {
   var path = require('path')
   var helpers = require('atom-linter');
@@ -47,7 +41,6 @@ export function provideLinter() {
             text: match[4]
           });
         };
-        console.log(messages);
         return messages;
       });
     }
