@@ -15,3 +15,9 @@ Now you can proceed to install the linter-bro plugin.
 ```
 $ apm install linter-bro
 ```
+
+### Plugin configuration
+
+This plugin has a single option, the path to the bro binary.  The default is
+just `bro`, if bro is not in your path you can change this option to
+`/the/specific/path/to/bro`.
