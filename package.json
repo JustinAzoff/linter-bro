@@ -3,7 +3,7 @@
   "linter-package": true,
   "main": "index.js",
   "activationCommands": [],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Lint Bro on the fly",
   "keywords": [
     "linter-bro",
@@ -27,9 +27,9 @@
   },
   "providedServices": {
     "linter": {
-       "versions": {
-         "1.0.0": "provideLinter"
-        }
-     }
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
   }
 }
